@@ -1,0 +1,35 @@
+{
+    "BoardConfiguration": {
+      "BOARD_IP": "0.0.0.0",
+      "REMOTE_SCRIPT_PATH": "~/"
+    },
+    "IoTConfiguration": {
+      "THING_NAME": "",
+      "THING_GROUP_NAME": "",
+      "AWS_IOT_POLICY": "MyGreengrassV2IoTThingPolicy",
+      "ROLE_ALIAS_NAME": "MyGreengrassCoreTokenExchangeRoleAlias",
+      "EXCHANGE_ROLE_POLICY": "MyGreengrassV2TokenExchangeRoleAccess",
+      "ROLE_NAME": "MyGreengrassV2TokenExchangeRole",
+      "IOT_ROLE_ALIAS_POLICY_NAME": "MyGreengrassCoreTokenExchangeRoleAliasPolicy",
+      "REGION": "", 
+      "DATA_ENDPOINT": "",
+      "CRED_ENDPOINT": ""
+    },
+    "PKCS11Configuration": {
+      "PKCS11_SLOT": "0",
+      "PKCS11_TOKEN_LABEL": "GG_token",
+      "PKCS11_SO_PIN": "1234567890",
+      "PKCS11_USER_PIN": "12345",
+      "PKCS11_KEY_LABEL": "GG_key",
+      "PKCS11_KEY_ID": "0",
+      "PKCS11_MODULE_LIB": "/usr/lib/libckteec.so.0",
+      "OPENSSL_CONF_FILE": "/etc/pki/openssl-pkcs11-provider-optee.cnf"
+    },
+    "CertificateConfiguration": {
+      "CSR": "/tmp/mykey_csr.pem",
+      "CSR_ON_PC": "./mykey_csr.pem",
+      "CERT_ON_PC": "./cert.pem",
+      "CERT": "/tmp/cert.pem"
+    }
+  }
+  
