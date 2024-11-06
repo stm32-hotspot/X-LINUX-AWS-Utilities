@@ -2,11 +2,12 @@
 
 ## Description
 
-X-LINUX-AWS-Utilities provides a set of scripts to configure the STM32MP135 DK as an AWS Greengrass Core device. These scripts automate the setup of AWS IoT resources, IAM roles, PKCS#11 secure key management, and the Greengrass service, ensuring secure communication with AWS IoT services.
+X-LINUX-AWS-Utilities provides a set of scripts to configure the STM32MP135 DK or STM32MP257F-DK as an AWS Greengrass Core device. These scripts automate the setup of AWS IoT resources, IAM roles, PKCS#11 secure key management, and the Greengrass service, ensuring secure communication with AWS IoT services.
 
 ## Prerequisites
 
-- **[STM32MP1DK](https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html)**: The device must be set up and [accessible over the network](https://wiki.st.com/stm32mpu/wiki/How_to_setup_a_WLAN_connection).
+- **[STM32MP135F-DK](https://www.st.com/en/evaluation-tools/stm32mp135f-dk.html) or [STM32MP257F-DK](https://www.st.com/en/evaluation-tools/stm32mp257f-dk.html)** : The device must be [set up](https://wiki.st.com/stm32mpu/wiki/Getting_started/STM32MP1_boards/STM32MP135x-DK/Let%27s_start/Populate_the_target_and_boot_the_image) and [accessible over the network](https://wiki.st.com/stm32mpu/wiki/How_to_setup_a_WLAN_connection).
+
 - **[X-LINUX-AWS](https://wiki.st.com/stm32mpu/wiki/X-LINUX-AWS_Starter_package)**: Ensure that X-LINUX-AWS is installed on the STM32MP1DK.
 - [**Git Bash**](https://git-scm.com/downloads): Required for windows users as it provides a Unix-like shell that ensures compatibility with the Linux-style commands used in the scripts.
 - **AWS Account**: Access to an AWS account with permissions to manage IAM, IoT, and Greengrass.
